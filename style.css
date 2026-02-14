@@ -64,6 +64,19 @@ button {
   position: absolute;
   left: 140px;
 }
+@media (max-width: 600px) {
+  .btn-container {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .btn-container button {
+    width: 80%;
+    max-width: 250px;
+  }
+}
+
 
 /* GOOD CHOICE */
 .good-choice {
@@ -328,3 +341,4 @@ iframe {
     transform: translateY(0);
   }
 }
+
